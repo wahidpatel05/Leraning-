@@ -115,6 +115,7 @@ public class BankingApplication {
                     exit = true;
                     System.out.println("Exiting the application. Goodbye!");
                     break;
+  		case 8 -> System.out.println("Hello");
                 default:
                     System.out.println("Invalid choice. Please try again.");
                     break;
